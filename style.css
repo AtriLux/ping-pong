@@ -1,0 +1,55 @@
+body {
+    background-color: grey;
+    color: white;
+}
+#ball {
+    background-color:cyan;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 0;
+}
+#wall {
+    border: 10px solid white;
+    border-bottom: 4px solid darkgrey;
+    position: fixed;
+    min-width: 500px;
+    max-width: 800px;
+    height: 500px;
+    top: 10px;
+    z-index: 1;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    position: fixed;
+    top: 550px;
+    border: 5px solid white;
+    text-align: center;
+    padding-top: 12px;
+    font: bold small-caps 20px Calibri;
+}
+#repeatButton {
+    display: none;
+}
+p {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+#platform {
+    position: fixed;
+    width: 150px;
+    min-width: 50px;
+    height: 10px;
+    background-color: greenyellow;
+    z-index: 0;
+}
+#points {
+    position: fixed;
+    top: 530px;
+    font-weight: bolder;
+    font-size: 25px;
+}
